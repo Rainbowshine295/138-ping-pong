@@ -15,7 +15,7 @@ text-align: left;
     border: 1px solid white;
 }
 
-#start ,#status {
+#start ,#status, #restart {
 font-size: 22px;
 }
 
