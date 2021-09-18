@@ -19,6 +19,15 @@ text-align: left;
 font-size: 22px;
 }
 
+canvas {
+    margin-top: 20px;
+    border-radius: 20px;
+    border-top: 20px ridge skyblue;
+    border-right: 20px ridge dodgerblue;
+    border-bottom: 20px ridge blue ;
+    border-left: 20px ridge midnightblue ;
+}
+
 .copy_right_footer {
     color: azure;
     width: 100%;
