@@ -1,34 +1,49 @@
-body {
-background-size: cover;
-}
 
-.heading {
+.heading
+{
 width: 100%;
 text-align: left;
 }
-.heading h3 {
+.heading h3{
     display: inline;
 }
 
-.heading button {
+.heading button{
     float: right;
     border: 1px solid white;
 }
 
-#start ,#status, #restart {
+#start ,#status, #restart
+{
 font-size: 22px;
 }
 
-canvas {
+.modal-dialog
+{
+    width: 70%;
+}
+.modal-body
+{
+    text-align: left;
+    font-size: 20px;
+}
+h4
+{
+   background-color: grey;
+   color:white;
+   line-height: 2;
+}
+canvas 
+  {
     margin-top: 20px;
     border-radius: 20px;
     border-top: 20px ridge skyblue;
     border-right: 20px ridge dodgerblue;
     border-bottom: 20px ridge blue ;
     border-left: 20px ridge midnightblue ;
-}
+  }
 
-.copy_right_footer {
+  .copy_right_footer {
     color: azure;
     width: 100%;
     bottom: 0;
